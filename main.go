@@ -82,9 +82,9 @@ func run() error {
 			return err
 		}
 		str := emojiFromBytes(sum)
-		fmt.Printf("SHA1(-)=\t%x\n", sum)
-		fmt.Printf("SHA1(-)=\t%s\n", str)
-		fmt.Printf("SHA1(-)=\t")
+		fmt.Printf("SHA1(-)= %x\n", sum)
+		fmt.Printf("SHA1(-)= %s\n", str)
+		fmt.Printf("SHA1(-)= ")
 		emoji.Println(str)
 		return nil
 	}
@@ -101,9 +101,9 @@ func run() error {
 			return err
 		}
 		str := emojiFromBytes(sum)
-		fmt.Printf("SHA1(%s)=\t%x\n", arg, sum)
-		fmt.Printf("SHA1(%s)=\t%s\n", arg, str)
-		fmt.Printf("SHA1(%s)=\t", arg)
+		fmt.Printf("SHA1(%s)= %x\n", arg, sum)
+		fmt.Printf("SHA1(%s)= %s\n", arg, str)
+		fmt.Printf("SHA1(%s)= ", arg)
 		emoji.Println(str)
 	}
 	return nil
