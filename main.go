@@ -268,7 +268,7 @@ var emojiMap = []string{
 	":fu:",
 	":full_moon:",
 	":game_die:",
-	":gb:",
+	":eu:",
 	":gem:",
 	":girl:",
 	":goat:",
