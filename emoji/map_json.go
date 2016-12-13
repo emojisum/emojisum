@@ -4,44 +4,43 @@ package main
 
 import (
 	"encoding/json"
+	"flag"
 	"log"
 	"os"
 	"text/template"
+
+	"github.com/vbatts/emojisum/emoji"
 )
 
 func main() {
-	input, err := os.Open("map-draft.json")
+	flag.Parse()
+	input, err := os.Open(*flInput)
 	if err != nil {
 		log.Fatal(err)
 	}
 	defer input.Close()
 
-	// these are an ordered list, referened by a byte (each byte of a checksum digest)
-	Map := []string{}
+	vm := emoji.VersionedMap{}
 
 	dec := json.NewDecoder(input)
-	if err := dec.Decode(&Map); err != nil {
+	if err := dec.Decode(&vm); err != nil {
 		log.Fatal(err)
 	}
 
-	output, err := os.Create("map_gen.go")
+	output, err := os.Create(*flOutput)
 	if err != nil {
 		log.Fatal(err)
 	}
 	defer output.Close()
-	if err := mapGoTemp.Execute(output, Map); err != nil {
+
+	mapGoTemp := template.Must(template.ParseFiles(*flTemplate))
+	if err := mapGoTemp.Execute(output, vm); err != nil {
 		log.Fatal(err)
 	}
 }
 
 var (
-	mapGoText = `// THIS FILE IS GENERATED. DO NOT EDIT.
-
-package emoji
-
-var sumList = []string{ {{- range . }}
-	"{{.}}",{{- end }}
-}
-`
-	mapGoTemp = template.Must(template.New("map.go").Parse(mapGoText))
+	flInput    = flag.String("in", "emojimap.json", "json input")
+	flOutput   = flag.String("out", "map_gen.go", "golang output")
+	flTemplate = flag.String("template", "map_gen.tmpl", "template of golang source to use")
 )
