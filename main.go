@@ -49,7 +49,7 @@ func run() error {
 			fmt.Printf("%s(%s)= ", hash, name)
 			emoji.Println(str)
 		}
-		return nil
+		// never gets here because of the return on EOF or err
 	}
 	if *flParseCoreUtils {
 		buf := bufio.NewReader(os.Stdin)
@@ -71,7 +71,7 @@ func run() error {
 			emoji.Print(str)
 			fmt.Printf("  %s\n", name)
 		}
-		return nil
+		// never gets here because of the return on EOF or err
 	}
 
 	// Otherwise do the checksum ourselves
@@ -135,6 +135,7 @@ func parseOpenSSL(line string) (hash, filename string, sum []byte, err error) {
 	return chunksprime[0], chunksprime[1], sum, nil
 }
 
+// ErrNotOpenSSLLine when the line to parse is not formated like an OpenSSL checksum line
 var ErrNotOpenSSLLine = errors.New("not an openssl checksum line")
 
 /*
@@ -156,8 +157,10 @@ func parseCoreUtils(line string) (filename string, sum []byte, err error) {
 	return chunks[1], sum, nil
 }
 
+// ErrNotCoreUtilsLine when the line to parse is not formated like a coreutils checksum line
 var ErrNotCoreUtilsLine = errors.New("not a coreutils checksum line")
 
+// Sum is a basic wrapper around crypto/sha1
 func Sum(r io.Reader) ([]byte, error) {
 	h := sha1.New()
 	if _, err := io.Copy(h, r); err != nil {
