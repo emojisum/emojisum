@@ -1,0 +1,20 @@
+language: go
+go:
+  - 1.7.4
+  - 1.6.3
+
+sudo: false
+
+before_install:
+  - git config --global url."https://".insteadOf git://
+  - go get -u github.com/golang/lint/golint
+  - mkdir -p $GOPATH/src/github.com/vbatts && ln -sf $(pwd) $GOPATH/src/github.com/vbatts/emojisum
+  - go get -d ./...
+
+install: true
+
+script:
+  - go vet ./...
+  - golint -set_exit_status ./...
+  - go test -v ./...
+  - go build .
