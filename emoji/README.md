@@ -21,9 +21,8 @@ into compilations, provided that the copyright notice and this notice are
 preserved, and that any substantive changes or deletions from the original are
 clearly marked.
 
-A pointer to the latest version of this and related documentation in HTML
-format can be found at the URL
-[http://emoji.thisco.de/draft/emojimap.json](http://emoji.thisco.de/draft/emojimap.json)
+A pointer to the latest version of the canonical JSON is the URL: [http://emoji.thisco.de/draft/emojimap.json](http://emoji.thisco.de/draft/emojimap.json)
+Related documentation in can be found at the URL: [http://emoji.thisco.de/](http://emoji.thisco.de/)
 
 ## Abstract
 
