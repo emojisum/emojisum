@@ -1,4 +1,5 @@
 # emojisum
+[![Build Status](https://travis-ci.org/vbatts/emojisum.svg?branch=master)](https://travis-ci.org/vbatts/emojisum)
 
 :pray: :paperclip: Emoji that checksum! :tada: :poop:
 
