@@ -33,7 +33,16 @@ func main() {
 	}
 	defer output.Close()
 
-	mapGoTemp := template.Must(template.ParseFiles(*flTemplate))
+	//mapGoTemp := template.Must(template.ParseFiles(*flTemplate))
+	funcMap := template.FuncMap{
+		"IsColonNotation": emoji.IsColonNotation,
+		"IsCodepoint":     emoji.IsCodepoint,
+	}
+
+	mapGoTemp, err := template.New("").Funcs(funcMap).Parse(tmpl[*flTemplate])
+	if err != nil {
+		log.Fatal(err)
+	}
 	if err := mapGoTemp.Execute(output, vm); err != nil {
 		log.Fatal(err)
 	}
@@ -42,5 +51,47 @@ func main() {
 var (
 	flInput    = flag.String("in", "emojimap.json", "json input")
 	flOutput   = flag.String("out", "map_gen.go", "golang output")
-	flTemplate = flag.String("template", "map_gen.tmpl", "template of golang source to use")
+	flTemplate = flag.String("template", "map_gen", "template to use (map_gen or markdown_gen)")
 )
+
+var tmpl = map[string]string{
+	"map_gen": `
+// THIS FILE IS GENERATED. DO NOT EDIT.
+
+package emoji
+
+func init() {
+  mapGen = VersionedMap{
+	  Description: "{{.Description}}",
+	  Version: "{{.Version}}",
+	  EmojiWords: []Words{ {{- range .EmojiWords }}
+      Words{ {{ range . -}}
+        "{{- . }}",{{- end }}
+      },{{- end }}
+	  },
+  }
+}
+`,
+	"markdown_gen": `
+## Emoji Map list
+
+_THIS FILE IS GENERATED. DO NOT EDIT._
+
+This is for "pretty" viewing purposes.
+To view the functional document, see [emojimap.json](./emojimap.json).
+
+### Description
+
+{{ .Description }}
+
+### Version
+
+{{ .Version }}
+
+### List
+
+{{- range $index, $words := .EmojiWords }}
+  * ` + "`{{ $index }}`" + ` -- {{ range $words }} {{- if IsColonNotation . -}} {{ . }} ` + "`{{ . }}`" + ` {{- else }} {{.}} {{- end }}{{- end }}
+{{- end }}
+`,
+}

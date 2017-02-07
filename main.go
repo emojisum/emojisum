@@ -174,7 +174,13 @@ func Sum(r io.Reader) ([]byte, error) {
 func emojiFromBytes(buf []byte) string {
 	var ret string
 	for _, b := range buf {
-		ret = ret + esum.Map(b)
+		for _, e := range esum.Map(b) {
+			// use the first colon notation word and continue
+			if esum.IsColonNotation(e) {
+				ret = ret + e
+				break
+			}
+		}
 	}
 	return ret
 }
