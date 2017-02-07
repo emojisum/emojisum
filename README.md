@@ -10,6 +10,9 @@ So 1 emoji is 2 hex positions.
 ## draft practice
 
 For information on the draft for broader practice, see [the draft](./emoji/README.md).
+Perma-URL:
+- Draft [http://emoji.thisco.de/draft/](emoji.thisco.de/draft/)
+- JSON doc [http://emoji.thisco.de/draft/emojimap.json](emoji.thisco.de/draft/emojimap.json)
 
 ## build
 
