@@ -31,6 +31,7 @@ This document specifies a practice of mapping an 8bit byte to one of a
 corresponding list of 256 emoji strings.
 
 The [`emojimap.json`](./emojimap.json) JSON is the authority of ordering.
+There is a generated visualiztion of this JSON document at [`list.md`](./list.md).
 While this directory contains golang source that is is importable by golang
 projects, other languages can fetch the ordered list of the JSON document and
 do their own emojisum comparison or rendering.
