@@ -174,7 +174,7 @@ func Sum(r io.Reader) ([]byte, error) {
 func emojiFromBytes(buf []byte) string {
 	var ret string
 	for _, b := range buf {
-		ret = ret + esum.Map(b)
+		ret = ret + esum.Map(b)[0]
 	}
 	return ret
 }
