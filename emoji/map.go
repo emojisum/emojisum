@@ -25,10 +25,10 @@ type VersionedMap struct {
 }
 
 // Words are a set of options to represent an emoji.
-// Possible options could be the ":colon_notion:" or a "U+26CF" style codepoint.
+// Possible options could be the ":colon_notation:" or a "U+26CF" style codepoint.
 type Words []string
 
-// IsColonNotation checks for whether a word is the :colon_notion: of emoji
+// IsColonNotation checks for whether a word is the :colon_notation: of emoji
 func IsColonNotation(word string) bool {
 	return strings.HasPrefix(word, ":") && strings.HasSuffix(word, ":")
 }
