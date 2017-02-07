@@ -22,6 +22,7 @@ preserved, and that any substantive changes or deletions from the original are
 clearly marked.
 
 A pointer to the latest version of the canonical JSON is the URL: [http://emoji.thisco.de/draft/emojimap.json](http://emoji.thisco.de/draft/emojimap.json)
+A pointer to the latest version of this spec the URL: [http://emoji.thisco.de/draft/](http://emoji.thisco.de/draft/)
 Related documentation in can be found at the URL: [http://emoji.thisco.de/](http://emoji.thisco.de/)
 
 ## Abstract
@@ -60,4 +61,5 @@ In example, a [SHA1](https://en.wikipedia.org/wiki/SHA-1) checksum is 40 hexadec
 
 ## References
 
+* Unicode Technical Report #51 - http://www.unicode.org/reports/tr51/
 * http://www.webpagefx.com/tools/emoji-cheat-sheet/

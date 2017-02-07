@@ -6,8 +6,10 @@ func init() {
   mapGen = VersionedMap{
 	  Description: "{{.Description}}",
 	  Version: "{{.Version}}",
-	  EmojiWords: []string{ {{- range .EmojiWords }}
-		  "{{.}}",{{- end }}
+	  EmojiWords: []Words{ {{- range .EmojiWords }}
+      Words{ {{ range . -}}
+        "{{- . }}",{{- end }}
+      },{{- end }}
 	  },
   }
 }

@@ -4,7 +4,7 @@ package emoji
 
 // Map returns the emoji at the provided position.
 // This list is from 0-255
-func Map(b byte) string {
+func Map(b byte) Words {
 	return mapGen.EmojiWords[int(b)]
 }
 
@@ -21,5 +21,9 @@ type VersionedMap struct {
 	Description string `json:"description"`
 	Version     string `json:"version"`
 	// these are an ordered list, referened by a byte (each byte of a checksum digest)
-	EmojiWords []string `json:"emojiwords"`
+	EmojiWords []Words `json:"emojiwords"`
 }
+
+// Words are a set of options to represent an emoji.
+// Possible options could be the ":colon_notion:" or a "U+26CF" style codepoint.
+type Words []string
