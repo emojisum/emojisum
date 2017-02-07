@@ -1,5 +1,3 @@
-//go:generate go run map_json.go -in ./emojimap.json -out ./map_gen.go
-
 package emoji
 
 // Map returns the emoji at the provided position.
