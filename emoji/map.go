@@ -1,5 +1,7 @@
 package emoji
 
+import "strings"
+
 // Map returns the emoji at the provided position.
 // This list is from 0-255
 func Map(b byte) Words {
@@ -25,3 +27,13 @@ type VersionedMap struct {
 // Words are a set of options to represent an emoji.
 // Possible options could be the ":colon_notion:" or a "U+26CF" style codepoint.
 type Words []string
+
+// IsColonNotation checks for whether a word is the :colon_notion: of emoji
+func IsColonNotation(word string) bool {
+	return strings.HasPrefix(word, ":") && strings.HasSuffix(word, ":")
+}
+
+// IsCodepoint checks for whether a word is the "U+1234" codepoint style of emoji
+func IsCodepoint(word string) bool {
+	return strings.HasPrefix(strings.ToUpper(word), "U+")
+}
