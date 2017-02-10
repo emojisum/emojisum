@@ -3,9 +3,12 @@
 
 :pray: :paperclip: Emoji that checksum! :tada: :poop:
 
-I attempted a curated list of 256 emojis that are not entirely similar. Using http://www.webpagefx.com/tools/emoji-cheat-sheet/ to compare them. I went with 256 as that is 8bit/1byte, and the hexadecimal output that is 2 hex characters.
+A curated list of 256 emojis that are not entirely similar.
+Using http://www.webpagefx.com/tools/emoji-cheat-sheet/ and http://www.unicode.org/emoji/charts/full-emoji-list.html to compare them.
+With 256 as that is 8bit/1byte, and the hexadecimal output that is 2 hex characters.
 
-So 1 emoji is 2 hex positions.
+So 2 hex positions are 1 emoji!
+Would you rather compare 60 hexadecimal characters or only 30 emoji?! :smiley_cat:
 
 ## draft practice
 
