@@ -9,7 +9,7 @@ import (
 	"os"
 	"text/template"
 
-	"github.com/vbatts/emojisum/emoji"
+	"github.com/emojisum/emojisum/emoji"
 )
 
 func main() {

@@ -11,8 +11,8 @@ import (
 	"os"
 	"strings"
 
+	esum "github.com/emojisum/emojisum/emoji"
 	"github.com/kyokomi/emoji"
-	esum "github.com/vbatts/emojisum/emoji"
 )
 
 func main() {
