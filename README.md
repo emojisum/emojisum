@@ -1,5 +1,5 @@
 # emojisum
-[![Build Status](https://travis-ci.org/vbatts/emojisum.svg?branch=master)](https://travis-ci.org/vbatts/emojisum)
+[![Build Status](https://travis-ci.org/emojisum/emojisum.svg?branch=master)](https://travis-ci.org/emojisum/emojisum)
 
 :pray: :paperclip: Emoji that checksum! :tada: :poop:
 
@@ -20,7 +20,7 @@ Perma-URL:
 ## build
 
 ```bash
-go get github.com/vbatts/emojisum
+go get github.com/emojisum/emojisum
 ```
 
 ## usage
