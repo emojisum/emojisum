@@ -111,66 +111,66 @@ draft+2
   * `93` -- :guitar: `:guitar:` [U+1F3B8](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f3b8)
   * `94` -- :gun: `:gun:` [U+1F52B](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f52b)
   * `95` -- :hamburger: `:hamburger:` [U+1F354](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f354)
-  * `96` -- :hammer: `:hammer:`
-  * `97` -- :hamster: `:hamster:`
-  * `98` -- :hear_no_evil: `:hear_no_evil:`
-  * `99` -- :heart: `:heart:`
-  * `100` -- :heart_eyes_cat: `:heart_eyes_cat:`
+  * `96` -- :hammer: `:hammer:` [U+1F528](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f528)
+  * `97` -- :hamster: `:hamster:` [U+1F439](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f439)
+  * `98` -- :hear_no_evil: `:hear_no_evil:` [U+1F649](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f649)
+  * `99` -- :heart: `:heart:` [U+2764](http://www.unicode.org/emoji/charts/full-emoji-list.html#2764)
+  * `100` -- :heart_eyes_cat: `:heart_eyes_cat:` [U+1F63B](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f63b)
   * `101` -- :hearts: `:hearts:`
-  * `102` -- :heavy_check_mark: `:heavy_check_mark:`
-  * `103` -- :moyai: `:moyai:`
-  * `104` -- :izakaya_lantern: `:izakaya_lantern:`
-  * `105` -- :helicopter: `:helicopter:`
-  * `106` -- :hocho: `:hocho:`
-  * `107` -- :honeybee: `:honeybee:`
-  * `108` -- :horse: `:horse:`
-  * `109` -- :horse_racing: `:horse_racing:`
-  * `110` -- :hourglass: `:hourglass:`
-  * `111` -- :house: `:house:`
+  * `102` -- :heavy_check_mark: `:heavy_check_mark:` [U+2714](http://www.unicode.org/emoji/charts/full-emoji-list.html#2714)
+  * `103` -- :moyai: `:moyai:`:moai: `:moai:` [U+1F5FF](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f5ff)
+  * `104` -- :izakaya_lantern: `:izakaya_lantern:` [U+1F3EE](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f3ee)
+  * `105` -- :helicopter: `:helicopter:` [U+1F681](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f681)
+  * `106` -- :hocho: `:hocho:` [U+1F52A](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f52a)
+  * `107` -- :honeybee: `:honeybee:` [U+1F41D](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f41d)
+  * `108` -- :horse: `:horse:` [U+1F434](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f434)
+  * `109` -- :horse_racing: `:horse_racing:` [U+1F3C7](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f3c7)
+  * `110` -- :hourglass: `:hourglass:` [U+231B](http://www.unicode.org/emoji/charts/full-emoji-list.html#231b)
+  * `111` -- :house: `:house:` [U+1F3E0](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f3e0)
   * `112` -- :female_detective: `:female_detective:` [U+1F575](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f575) [U+1FE0F](http://www.unicode.org/emoji/charts/full-emoji-list.html#1fe0f) [U+200D](http://www.unicode.org/emoji/charts/full-emoji-list.html#200d) [U+2640](http://www.unicode.org/emoji/charts/full-emoji-list.html#2640)
-  * `113` -- :icecream: `:icecream:`
-  * `114` -- :imp: `:imp:`
-  * `115` -- :it: `:it:`
-  * `116` -- :jack_o_lantern: `:jack_o_lantern:`
-  * `117` -- :japanese_goblin: `:japanese_goblin:`
-  * `118` -- :jp: `:jp:`
-  * `119` -- :key: `:key:`
-  * `120` -- :kiss: `:kiss:`
-  * `121` -- :kissing_cat: `:kissing_cat:`
-  * `122` -- :koala: `:koala:`
-  * `123` -- :kr: `:kr:`
-  * `124` -- :lemon: `:lemon:`
-  * `125` -- :lipstick: `:lipstick:`
-  * `126` -- :lock: `:lock:`
-  * `127` -- :lollipop: `:lollipop:`
-  * `128` -- :man: `:man:`
-  * `129` -- :maple_leaf: `:maple_leaf:`
-  * `130` -- :mask: `:mask:`
+  * `113` -- :icecream: `:icecream:` [U+1F366](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f366)
+  * `114` -- :imp: `:imp:` [U+1F608](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f608)
+  * `115` -- :it: `:it:` [U+1F1EE](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f1ee) [U+1F1F9](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f1f9)
+  * `116` -- :jack_o_lantern: `:jack_o_lantern:` [U+1F383](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f383)
+  * `117` -- :japanese_goblin: `:japanese_goblin:` [U+1F47A](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f47a)
+  * `118` -- :jp: `:jp:` [U+1F1EF](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f1ef) [U+1F1F5](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f1f5)
+  * `119` -- :key: `:key:` [U+1F511](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f511)
+  * `120` -- :kiss: `:kiss:` [U+1F48B](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f48b)
+  * `121` -- :kissing_cat: `:kissing_cat:` [U+1F63D](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f63d)
+  * `122` -- :koala: `:koala:` [U+1F428](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f428)
+  * `123` -- :kr: `:kr:` [U+1F1F0](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f1f0) [U+1F1F7](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f1f7)
+  * `124` -- :lemon: `:lemon:` [U+1F34B](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f34b)
+  * `125` -- :lipstick: `:lipstick:` [U+1F484](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f484)
+  * `126` -- :lock: `:lock:` [U+1F512](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f512)
+  * `127` -- :lollipop: `:lollipop:` [U+1F36D](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f36d)
+  * `128` -- :man: `:man:` [U+1F468](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f468)
+  * `129` -- :maple_leaf: `:maple_leaf:` [U+1F341](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f341)
+  * `130` -- :mask: `:mask:` [U+1F637](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f637)
   * `131` -- :metal: `:metal:` [U+1F918](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f918)
-  * `132` -- :microscope: `:microscope:`
-  * `133` -- :moneybag: `:moneybag:`
-  * `134` -- :monkey: `:monkey:`
-  * `135` -- :mount_fuji: `:mount_fuji:`
-  * `136` -- :muscle: `:muscle:`
-  * `137` -- :mushroom: `:mushroom:`
-  * `138` -- :musical_keyboard: `:musical_keyboard:`
-  * `139` -- :musical_score: `:musical_score:`
-  * `140` -- :nail_care: `:nail_care:`
-  * `141` -- :new_moon: `:new_moon:`
-  * `142` -- :no_entry: `:no_entry:`
-  * `143` -- :nose: `:nose:`
+  * `132` -- :microscope: `:microscope:` [U+1F52C](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f52c)
+  * `133` -- :moneybag: `:moneybag:` [U+1F4B0](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f4b0)
+  * `134` -- :monkey: `:monkey:` [U+1F412](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f412)
+  * `135` -- :mount_fuji: `:mount_fuji:` [U+1F5FB](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f5fb)
+  * `136` -- :muscle: `:muscle:` [U+1F4AA](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f4aa)
+  * `137` -- :mushroom: `:mushroom:` [U+1F344](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f344)
+  * `138` -- :musical_keyboard: `:musical_keyboard:` [U+1F3B9](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f3b9)
+  * `139` -- :musical_score: `:musical_score:` [U+1F3BC](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f3bc)
+  * `140` -- :nail_care: `:nail_care:` [U+1F485](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f485)
+  * `141` -- :new_moon: `:new_moon:` [U+1F311 ](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f311 )
+  * `142` -- :no_entry: `:no_entry:` [U+26D4](http://www.unicode.org/emoji/charts/full-emoji-list.html#26d4)
+  * `143` -- :nose: `:nose:` [U+1F443](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f443)
   * `144` -- :notes: `:notes:`
-  * `145` -- :nut_and_bolt: `:nut_and_bolt:`
-  * `146` -- :o: `:o:`
-  * `147` -- :ocean: `:ocean:`
-  * `148` -- :ok_hand: `:ok_hand:`
-  * `149` -- :on: `:on:`
-  * `150` -- :package: `:package:`
-  * `151` -- :palm_tree: `:palm_tree:`
-  * `152` -- :panda_face: `:panda_face:`
-  * `153` -- :paperclip: `:paperclip:`
-  * `154` -- :partly_sunny: `:partly_sunny:`
-  * `155` -- :passport_control: `:passport_control:`
+  * `145` -- :nut_and_bolt: `:nut_and_bolt:` [U+1F529](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f529)
+  * `146` -- :o: `:o:` [U+2B55](http://www.unicode.org/emoji/charts/full-emoji-list.html#2b55)
+  * `147` -- :ocean: `:ocean:` [U+1F30A](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f30a)
+  * `148` -- :ok_hand: `:ok_hand:` [U+1F44C](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f44c)
+  * `149` -- :on: `:on:` [U+1F51B](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f51b)
+  * `150` -- :package: `:package:` [U+1F4E6](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f4e6)
+  * `151` -- :palm_tree: `:palm_tree:` [U+1F334](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f334)
+  * `152` -- :panda_face: `:panda_face:` [U+1F43C](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f43c)
+  * `153` -- :paperclip: `:paperclip:` [U+1F4CE](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f4ce) [U+1F587](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f587)
+  * `154` -- :partly_sunny: `:partly_sunny:` [U+26C5](http://www.unicode.org/emoji/charts/full-emoji-list.html#26c5) [U+1F324](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f324) [U+1F325](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f325)
+  * `155` -- :passport_control: `:passport_control:` [U+1F6C2](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f6c2) [U+1F6C3](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f6c3)
   * `156` -- :paw_prints: `:paw_prints:`
   * `157` -- :peach: `:peach:`
   * `158` -- :penguin: `:penguin:`
