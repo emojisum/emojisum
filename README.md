@@ -10,20 +10,22 @@ With 256 as that is 8bit/1byte, and the hexadecimal output that is 2 hex charact
 So 2 hex positions are 1 emoji!
 Would you rather compare 60 hexadecimal characters or only 30 emoji?! :smiley_cat:
 
-## draft practice
+## Specification
 
 For information on the draft for broader practice, see [the draft](./emoji/README.md).
 Perma-URL:
 - Draft [http://emoji.thisco.de/draft/](http://emoji.thisco.de/draft/)
 - JSON doc [http://emoji.thisco.de/draft/emojimap.json](http://emoji.thisco.de/draft/emojimap.json)
 
-## build
+## Tool
+
+### build
 
 ```bash
 go get github.com/emojisum/emojisum
 ```
 
-## usage
+### usage
 
 This uses [`github.com/kyokomi/emoji`](https://github.com/kyokomi/emoji) to print to the console, but also gives the string ouptut for easy pasting to github/markdown.
 
