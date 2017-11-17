@@ -127,7 +127,7 @@ draft+2
   * `109` -- :horse_racing: `:horse_racing:`
   * `110` -- :hourglass: `:hourglass:`
   * `111` -- :house: `:house:`
-  * `112` -- :hurtrealbad: `:hurtrealbad:`
+  * `112` -- :female_detective: `:female_detective:` U+1F575 U+1FE0F U+200D U+2640
   * `113` -- :icecream: `:icecream:`
   * `114` -- :imp: `:imp:`
   * `115` -- :it: `:it:`

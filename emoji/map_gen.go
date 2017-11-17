@@ -232,7 +232,7 @@ func init() {
       },
       Words{ ":house:",
       },
-      Words{ ":hurtrealbad:",
+      Words{ ":female_detective:","U+1F575","U+1FE0F","U+200D","U+2640",
       },
       Words{ ":icecream:",
       },
