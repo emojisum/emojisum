@@ -1,6 +1,9 @@
 package emoji
 
-import "strings"
+import (
+	"fmt"
+	"strings"
+)
 
 // Map returns the emoji at the provided position.
 // This list is from 0-255
@@ -36,4 +39,15 @@ func IsColonNotation(word string) bool {
 // IsCodepoint checks for whether a word is the "U+1234" codepoint style of emoji
 func IsCodepoint(word string) bool {
 	return strings.HasPrefix(strings.ToUpper(word), "U+")
+}
+
+var unicodeURL = `http://www.unicode.org/emoji/charts/full-emoji-list.html`
+
+// UnicodeLink returns a link to unicode.org list for CodePoint, or just the
+// full list if not a codepoint
+func UnicodeLink(word string) string {
+	if !IsCodepoint(word) {
+		return unicodeURL
+	}
+	return fmt.Sprintf("%s#%s", unicodeURL, strings.SplitN(strings.ToLower(word), "+", 2)[1])
 }

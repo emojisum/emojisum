@@ -5,6 +5,7 @@ package main
 import (
 	"encoding/json"
 	"flag"
+	"fmt"
 	"log"
 	"os"
 	"text/template"
@@ -35,8 +36,9 @@ func main() {
 
 	//mapGoTemp := template.Must(template.ParseFiles(*flTemplate))
 	funcMap := template.FuncMap{
-		"IsColonNotation": emoji.IsColonNotation,
-		"IsCodepoint":     emoji.IsCodepoint,
+		"IsColonNotation":       emoji.IsColonNotation,
+		"IsCodepoint":           emoji.IsCodepoint,
+		"CodepointLinkMarkdown": codepointLinkMarkdown,
 	}
 
 	mapGoTemp, err := template.New("").Funcs(funcMap).Parse(tmpl[*flTemplate])
@@ -46,6 +48,10 @@ func main() {
 	if err := mapGoTemp.Execute(output, vm); err != nil {
 		log.Fatal(err)
 	}
+}
+
+func codepointLinkMarkdown(word string) string {
+	return fmt.Sprintf(`[%s](%s)`, word, emoji.UnicodeLink(word))
 }
 
 var (
@@ -91,7 +97,7 @@ To view the functional document, see [emojimap.json](./emojimap.json).
 ### List
 
 {{- range $index, $words := .EmojiWords }}
-  * ` + "`{{ $index }}`" + ` -- {{ range $words }} {{- if IsColonNotation . -}} {{ . }} ` + "`{{ . }}`" + ` {{- else }} {{.}} {{- end }}{{- end }}
+  * ` + "`{{ $index }}`" + ` -- {{ range $words }} {{- if IsColonNotation . -}} {{ . }} ` + "`{{ . }}`" + ` {{- else }} {{ CodepointLinkMarkdown . }} {{- end }}{{- end }}
 {{- end }}
 `,
 }
