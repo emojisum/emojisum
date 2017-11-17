@@ -65,52 +65,52 @@ draft+2
   * `47` -- :copyright: `:copyright:` U+00A9
   * `48` -- :corn: `:corn:` U+1F33D
   * `49` -- :cow: `:cow:` U+1F42E
-  * `50` -- :crescent_moon: `:crescent_moon:`
-  * `51` -- :crown: `:crown:`
-  * `52` -- :cry: `:cry:`
-  * `53` -- :crystal_ball: `:crystal_ball:`
-  * `54` -- :curly_loop: `:curly_loop:`
-  * `55` -- :dancers: `:dancers:`
-  * `56` -- :dash: `:dash:`
-  * `57` -- :de: `:de:`
-  * `58` -- :diamonds: `:diamonds:`
-  * `59` -- :dog: `:dog:`
-  * `60` -- :doughnut: `:doughnut:`
-  * `61` -- :dragon: `:dragon:`
-  * `62` -- :dvd: `:dvd:`
-  * `63` -- :ear: `:ear:`
-  * `64` -- :eggplant: `:eggplant:`
-  * `65` -- :elephant: `:elephant:`
-  * `66` -- :end: `:end:`
-  * `67` -- :envelope: `:envelope:`
-  * `68` -- :es: `:es:`
-  * `69` -- :eyes: `:eyes:`
-  * `70` -- :facepunch: `:facepunch:`
-  * `71` -- :family: `:family:`
-  * `72` -- :ferris_wheel: `:ferris_wheel:`
+  * `50` -- :crescent_moon: `:crescent_moon:` U+1F319
+  * `51` -- :crown: `:crown:` U+1F451
+  * `52` -- :cry: `:cry:` U+1F622
+  * `53` -- :crystal_ball: `:crystal_ball:` U+1F52E
+  * `54` -- :curly_loop: `:curly_loop:` U+27B0
+  * `55` -- :dancers: `:dancers:` U+1F46F
+  * `56` -- :dash: `:dash:` U+1F4A8
+  * `57` -- :de: `:de:` U+1F1E9 U+1F1EA
+  * `58` -- :diamonds: `:diamonds:` U+2666
+  * `59` -- :dog: `:dog:` U+1F436
+  * `60` -- :doughnut: `:doughnut:` U+1F369
+  * `61` -- :dragon: `:dragon:` U+1F409
+  * `62` -- :dvd: `:dvd:` U+1F4C0
+  * `63` -- :ear: `:ear:` U+1F442
+  * `64` -- :eggplant: `:eggplant:` U+1F346
+  * `65` -- :elephant: `:elephant:` U+1F418
+  * `66` -- :end: `:end:` U+1F51A
+  * `67` -- :envelope: `:envelope:` U+2709
+  * `68` -- :es: `:es:` U+1F1EA U+1F1F8
+  * `69` -- :eyes: `:eyes:` U+1F440
+  * `70` -- :facepunch: `:facepunch:` U+1F44A
+  * `71` -- :family: `:family:` U+1F46A
+  * `72` -- :ferris_wheel: `:ferris_wheel:` U+1F3A1
   * `73` -- :cold_sweat: `:cold_sweat:` U+1F630
-  * `74` -- :fire: `:fire:`
-  * `75` -- :fireworks: `:fireworks:`
-  * `76` -- :floppy_disk: `:floppy_disk:`
-  * `77` -- :football: `:football:`
-  * `78` -- :fork_and_knife: `:fork_and_knife:`
-  * `79` -- :four_leaf_clover: `:four_leaf_clover:`
-  * `80` -- :fr: `:fr:`
-  * `81` -- :fries: `:fries:`
+  * `74` -- :fire: `:fire:` U+1F525
+  * `75` -- :fireworks: `:fireworks:` U+1F386
+  * `76` -- :floppy_disk: `:floppy_disk:` U+1F4BE
+  * `77` -- :football: `:football:` U+1F3C8
+  * `78` -- :fork_and_knife: `:fork_and_knife:` U+1F374
+  * `79` -- :four_leaf_clover: `:four_leaf_clover:` U+1F340
+  * `80` -- :fr: `:fr:` U+1F1EB U+1F1F7
+  * `81` -- :fries: `:fries:` U+1F35F
   * `82` -- :frog: `:frog:`
-  * `83` -- :fu: `:fu:`
-  * `84` -- :full_moon: `:full_moon:`
-  * `85` -- :game_die: `:game_die:`
-  * `86` -- :eu: `:eu:`
-  * `87` -- :gem: `:gem:`
-  * `88` -- :girl: `:girl:`
-  * `89` -- :goat: `:goat:`
-  * `90` -- :grimacing: `:grimacing:`
-  * `91` -- :grin: `:grin:`
-  * `92` -- :guardsman: `:guardsman:`
-  * `93` -- :guitar: `:guitar:`
-  * `94` -- :gun: `:gun:`
-  * `95` -- :hamburger: `:hamburger:`
+  * `83` -- :fu: `:fu:` U+1F595
+  * `84` -- :full_moon: `:full_moon:` U+1F315
+  * `85` -- :game_die: `:game_die:` U+1F3B2
+  * `86` -- :eu: `:eu:` U+1F1EA U+1F1FA
+  * `87` -- :gem: `:gem:` U+1F48E
+  * `88` -- :girl: `:girl:` U+1F467
+  * `89` -- :goat: `:goat:` U+1F410
+  * `90` -- :grimacing: `:grimacing:` U+1F62C
+  * `91` -- :grin: `:grin:` U+1F600
+  * `92` -- :guardsman: `:guardsman:` U+1F482
+  * `93` -- :guitar: `:guitar:` U+1F3B8
+  * `94` -- :gun: `:gun:` U+1F52B
+  * `95` -- :hamburger: `:hamburger:` U+1F354
   * `96` -- :hammer: `:hammer:`
   * `97` -- :hamster: `:hamster:`
   * `98` -- :hear_no_evil: `:hear_no_evil:`
