@@ -472,7 +472,7 @@ func init() {
       },
       Words{ ":trolleybus:",
       },
-      Words{ ":trollface:",
+      Words{ ":nauseated_face:","U+1F922",
       },
       Words{ ":trophy:",
       },

@@ -247,7 +247,7 @@ draft+2
   * `229` -- :tophat: `:tophat:`
   * `230` -- :tractor: `:tractor:`
   * `231` -- :trolleybus: `:trolleybus:`
-  * `232` -- :trollface: `:trollface:`
+  * `232` -- :nauseated_face: `:nauseated_face:` U+1F922
   * `233` -- :trophy: `:trophy:`
   * `234` -- :trumpet: `:trumpet:`
   * `235` -- :turtle: `:turtle:`
