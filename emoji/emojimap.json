@@ -1,5 +1,5 @@
 {
-  "version": "draft+1",
+  "version": "draft+2",
   "description": "This ordered list of emojiwords is the conventional order for the practice of conveying checksums with emoji. Each position provides the alternative for resolving the desired emoji.",
   "emojiwords": [
     [":+1:", "U+1F44D"],
@@ -75,7 +75,7 @@
     [":facepunch:"],
     [":family:"],
     [":ferris_wheel:"],
-    [":finnadie:"],
+    [":cold_sweat:", "U+1F630"],
     [":fire:"],
     [":fireworks:"],
     [":floppy_disk:"],
@@ -114,7 +114,7 @@
     [":horse_racing:"],
     [":hourglass:"],
     [":house:"],
-    [":hurtrealbad:"],
+    [":female_detective:", "U+1F575", "U+1FE0F", "U+200D", "U+2640"],
     [":icecream:"],
     [":imp:"],
     [":it:"],
@@ -234,7 +234,7 @@
     [":tophat:"],
     [":tractor:"],
     [":trolleybus:"],
-    [":trollface:"],
+    [":nauseated_face:", "U+1F922"],
     [":trophy:"],
     [":trumpet:"],
     [":turtle:"],
