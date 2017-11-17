@@ -251,8 +251,8 @@ draft+2
   * `233` -- :trophy: `:trophy:`
   * `234` -- :trumpet: `:trumpet:`
   * `235` -- :turtle: `:turtle:`
-  * `236` -- :two_men_holding_hands: `:two_men_holding_hands:`
-  * `237` -- :two_women_holding_hands: `:two_women_holding_hands:`
+  * `236` -- :carousel_horse: `:carousel_horse:` [U+1F3A0](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f3a0)
+  * `237` -- :two_women_holding_hands: `:two_women_holding_hands:`:two_men_holding_hands: `:two_men_holding_hands:`:couple: `:couple:` [U+1F46C ](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f46c ) [U+1F46D](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f46d) [U+1F46B](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f46b)
   * `238` -- :uk: `:uk:`
   * `239` -- :umbrella: `:umbrella:`
   * `240` -- :unlock: `:unlock:`
