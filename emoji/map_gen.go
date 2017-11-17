@@ -172,7 +172,7 @@ func init() {
       },
       Words{ ":fries:","U+1F35F",
       },
-      Words{ ":frog:",
+      Words{ ":peanuts:","U+1F95C",
       },
       Words{ ":fu:","U+1F595",
       },

@@ -97,7 +97,7 @@ draft+2
   * `79` -- :four_leaf_clover: `:four_leaf_clover:` [U+1F340](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f340)
   * `80` -- :fr: `:fr:` [U+1F1EB](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f1eb) [U+1F1F7](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f1f7)
   * `81` -- :fries: `:fries:` [U+1F35F](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f35f)
-  * `82` -- :frog: `:frog:`
+  * `82` -- :peanuts: `:peanuts:` [U+1F95C](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f95c)
   * `83` -- :fu: `:fu:` [U+1F595](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f595)
   * `84` -- :full_moon: `:full_moon:` [U+1F315](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f315)
   * `85` -- :game_die: `:game_die:` [U+1F3B2](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f3b2)
