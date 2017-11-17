@@ -12,41 +12,41 @@ This ordered list of emojiwords is the conventional order for the practice of co
 
 ### Version
 
-draft+1
+draft+2
 
 ### List
-  * `0` -- :+1: `:+1:`
-  * `1` -- :8ball: `:8ball:`
-  * `2` -- :airplane: `:airplane:`
-  * `3` -- :alien: `:alien:`
-  * `4` -- :anchor: `:anchor:`
-  * `5` -- :angel: `:angel:`
-  * `6` -- :angry: `:angry:`
-  * `7` -- :ant: `:ant:`
-  * `8` -- :apple: `:apple:`
-  * `9` -- :art: `:art:`
-  * `10` -- :baby: `:baby:`
-  * `11` -- :baby_bottle: `:baby_bottle:`
-  * `12` -- :back: `:back:`
-  * `13` -- :bamboo: `:bamboo:`
-  * `14` -- :banana: `:banana:`
-  * `15` -- :barber: `:barber:`
-  * `16` -- :bathtub: `:bathtub:`
-  * `17` -- :beer: `:beer:`
-  * `18` -- :bell: `:bell:`
-  * `19` -- :bicyclist: `:bicyclist:`
-  * `20` -- :bird: `:bird:`
-  * `21` -- :birthday: `:birthday:`
-  * `22` -- :blossom: `:blossom:`
-  * `23` -- :blue_car: `:blue_car:`
-  * `24` -- :boar: `:boar:`
-  * `25` -- :bomb: `:bomb:`
-  * `26` -- :boom: `:boom:`
-  * `27` -- :bow: `:bow:`
-  * `28` -- :boy: `:boy:`
-  * `29` -- :broken_heart: `:broken_heart:`
-  * `30` -- :bulb: `:bulb:`
-  * `31` -- :bus: `:bus:`
+  * `0` -- :+1: `:+1:` U+1F44D
+  * `1` -- :8ball: `:8ball:` U+1F3B1
+  * `2` -- :airplane: `:airplane:` U+2708
+  * `3` -- :alien: `:alien:` U+1F47D
+  * `4` -- :anchor: `:anchor:` U+2693
+  * `5` -- :angel: `:angel:` U+1F607
+  * `6` -- :angry: `:angry:` U+1F621
+  * `7` -- :ant: `:ant:` U+1F41C
+  * `8` -- :apple: `:apple:` U+1F34E
+  * `9` -- :art: `:art:` U+1F3A8
+  * `10` -- :baby: `:baby:` U+1F476
+  * `11` -- :baby_bottle: `:baby_bottle:` U+1F37C
+  * `12` -- :back: `:back:` U+1F519
+  * `13` -- :bamboo: `:bamboo:` U+1F38D
+  * `14` -- :banana: `:banana:` U+1F34C
+  * `15` -- :barber: `:barber:` U+1F488
+  * `16` -- :bathtub: `:bathtub:` U+1F6C1
+  * `17` -- :beer: `:beer:` U+1F37A
+  * `18` -- :bell: `:bell:` U+1F514
+  * `19` -- :bicyclist: `:bicyclist:` U+1F6B4
+  * `20` -- :bird: `:bird:` U+1F426
+  * `21` -- :birthday: `:birthday:` U+1F382
+  * `22` -- :blossom: `:blossom:` U+1F33C
+  * `23` -- :blue_car: `:blue_car:` U+1F693
+  * `24` -- :boar: `:boar:` U+1F417
+  * `25` -- :bomb: `:bomb:` U+1F4A3
+  * `26` -- :boom: `:boom:` U+1F4A5
+  * `27` -- :bow: `:bow:` U+1F3F9
+  * `28` -- :boy: `:boy:` U+1F466
+  * `29` -- :broken_heart: `:broken_heart:` U+1F494
+  * `30` -- :bulb: `:bulb:` U+1F4A1
+  * `31` -- :bus: `:bus:` U+1F68C
   * `32` -- :cactus: `:cactus:`
   * `33` -- :calendar: `:calendar:`
   * `34` -- :camera: `:camera:`
@@ -88,7 +88,7 @@ draft+1
   * `70` -- :facepunch: `:facepunch:`
   * `71` -- :family: `:family:`
   * `72` -- :ferris_wheel: `:ferris_wheel:`
-  * `73` -- :finnadie: `:finnadie:`
+  * `73` -- :cold_sweat: `:cold_sweat:` U+1F630
   * `74` -- :fire: `:fire:`
   * `75` -- :fireworks: `:fireworks:`
   * `76` -- :floppy_disk: `:floppy_disk:`

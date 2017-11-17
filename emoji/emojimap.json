@@ -1,5 +1,5 @@
 {
-  "version": "draft+1",
+  "version": "draft+2",
   "description": "This ordered list of emojiwords is the conventional order for the practice of conveying checksums with emoji. Each position provides the alternative for resolving the desired emoji.",
   "emojiwords": [
     [":+1:", "U+1F44D"],
@@ -75,7 +75,7 @@
     [":facepunch:"],
     [":family:"],
     [":ferris_wheel:"],
-    [":finnadie:"],
+    [":cold_sweat:", "U+1F630"],
     [":fire:"],
     [":fireworks:"],
     [":floppy_disk:"],
