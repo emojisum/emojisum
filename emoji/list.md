@@ -97,7 +97,7 @@ draft+2
   * `79` -- :four_leaf_clover: `:four_leaf_clover:` [U+1F340](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f340)
   * `80` -- :fr: `:fr:` [U+1F1EB](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f1eb) [U+1F1F7](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f1f7)
   * `81` -- :fries: `:fries:` [U+1F35F](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f35f)
-  * `82` -- :frog: `:frog:`
+  * `82` -- :peanuts: `:peanuts:` [U+1F95C](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f95c)
   * `83` -- :fu: `:fu:` [U+1F595](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f595)
   * `84` -- :full_moon: `:full_moon:` [U+1F315](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f315)
   * `85` -- :game_die: `:game_die:` [U+1F3B2](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f3b2)
@@ -116,7 +116,7 @@ draft+2
   * `98` -- :hear_no_evil: `:hear_no_evil:` [U+1F649](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f649)
   * `99` -- :heart: `:heart:` [U+2764](http://www.unicode.org/emoji/charts/full-emoji-list.html#2764)
   * `100` -- :heart_eyes_cat: `:heart_eyes_cat:` [U+1F63B](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f63b)
-  * `101` -- :hearts: `:hearts:`
+  * `101` -- :heavy_heart_exclamation: `:heavy_heart_exclamation:` [U+2763](http://www.unicode.org/emoji/charts/full-emoji-list.html#2763)
   * `102` -- :heavy_check_mark: `:heavy_check_mark:` [U+2714](http://www.unicode.org/emoji/charts/full-emoji-list.html#2714)
   * `103` -- :moyai: `:moyai:`:moai: `:moai:` [U+1F5FF](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f5ff)
   * `104` -- :izakaya_lantern: `:izakaya_lantern:` [U+1F3EE](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f3ee)
@@ -159,7 +159,7 @@ draft+2
   * `141` -- :new_moon: `:new_moon:` [U+1F311 ](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f311 )
   * `142` -- :no_entry: `:no_entry:` [U+26D4](http://www.unicode.org/emoji/charts/full-emoji-list.html#26d4)
   * `143` -- :nose: `:nose:` [U+1F443](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f443)
-  * `144` -- :notes: `:notes:`
+  * `144` -- :control_knobs: `:control_knobs:` [U+1F39B](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f39b)
   * `145` -- :nut_and_bolt: `:nut_and_bolt:` [U+1F529](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f529)
   * `146` -- :o: `:o:` [U+2B55](http://www.unicode.org/emoji/charts/full-emoji-list.html#2b55)
   * `147` -- :ocean: `:ocean:` [U+1F30A](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f30a)
@@ -251,8 +251,8 @@ draft+2
   * `233` -- :trophy: `:trophy:`
   * `234` -- :trumpet: `:trumpet:`
   * `235` -- :turtle: `:turtle:`
-  * `236` -- :two_men_holding_hands: `:two_men_holding_hands:`
-  * `237` -- :two_women_holding_hands: `:two_women_holding_hands:`
+  * `236` -- :carousel_horse: `:carousel_horse:` [U+1F3A0](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f3a0)
+  * `237` -- :two_women_holding_hands: `:two_women_holding_hands:`:two_men_holding_hands: `:two_men_holding_hands:`:couple: `:couple:` [U+1F46C ](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f46c ) [U+1F46D](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f46d) [U+1F46B](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f46b)
   * `238` -- :uk: `:uk:`
   * `239` -- :umbrella: `:umbrella:`
   * `240` -- :unlock: `:unlock:`
