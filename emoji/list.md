@@ -47,24 +47,24 @@ draft+2
   * `29` -- :broken_heart: `:broken_heart:` U+1F494
   * `30` -- :bulb: `:bulb:` U+1F4A1
   * `31` -- :bus: `:bus:` U+1F68C
-  * `32` -- :cactus: `:cactus:`
-  * `33` -- :calendar: `:calendar:`
-  * `34` -- :camera: `:camera:`
-  * `35` -- :candy: `:candy:`
-  * `36` -- :cat: `:cat:`
-  * `37` -- :cherries: `:cherries:`
-  * `38` -- :children_crossing: `:children_crossing:`
-  * `39` -- :chocolate_bar: `:chocolate_bar:`
-  * `40` -- :clap: `:clap:`
-  * `41` -- :cloud: `:cloud:`
-  * `42` -- :clubs: `:clubs:`
-  * `43` -- :cn: `:cn:`
-  * `44` -- :coffee: `:coffee:`
-  * `45` -- :construction: `:construction:`
-  * `46` -- :cookie: `:cookie:`
-  * `47` -- :copyright: `:copyright:`
-  * `48` -- :corn: `:corn:`
-  * `49` -- :cow: `:cow:`
+  * `32` -- :cactus: `:cactus:` U+1F335
+  * `33` -- :calendar: `:calendar:` U+1F4C5
+  * `34` -- :camera: `:camera:` U+1F4F7
+  * `35` -- :candy: `:candy:` U+1F36C
+  * `36` -- :cat: `:cat:` U+1F431
+  * `37` -- :cherries: `:cherries:` U+1F352
+  * `38` -- :children_crossing: `:children_crossing:` U+1F6B8
+  * `39` -- :chocolate_bar: `:chocolate_bar:` U+1F36B
+  * `40` -- :clap: `:clap:` U+1F44F
+  * `41` -- :cloud: `:cloud:` U+2601
+  * `42` -- :clubs: `:clubs:` U+2663
+  * `43` -- :cn: `:cn:` U+1F1E8 U+1F1F3
+  * `44` -- :coffee: `:coffee:` U+2615
+  * `45` -- :construction: `:construction:` U+1F6A7
+  * `46` -- :cookie: `:cookie:` U+1F36A
+  * `47` -- :copyright: `:copyright:` U+00A9
+  * `48` -- :corn: `:corn:` U+1F33D
+  * `49` -- :cow: `:cow:` U+1F42E
   * `50` -- :crescent_moon: `:crescent_moon:`
   * `51` -- :crown: `:crown:`
   * `52` -- :cry: `:cry:`
