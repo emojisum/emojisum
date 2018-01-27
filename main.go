@@ -23,8 +23,8 @@ func main() {
 }
 
 var (
-	flParseOpenSSL   = flag.Bool("parse-openssl", false, "parse the output of OpenSSL style checksums on stdin (`openssl sha256 ./foo | emojisum -parse-openssl`)")
-	flParseCoreUtils = flag.Bool("parse-coreutils", false, "parse the output of CoreUtils style checksums on stdin (`sha256sum ./foo | emojisum -parse-coreutils`)")
+	flParseOpenSSL   = flag.Bool("pb", false, "parse the output of BSD/OpenSSL style checksums on stdin (`openssl sha256 ./foo | emojisum -pb`)")
+	flParseCoreUtils = flag.Bool("pg", false, "parse the output of GNU/CoreUtils style checksums on stdin (`sha256sum ./foo | emojisum -pg`)")
 )
 
 func run() error {

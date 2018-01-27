@@ -47,7 +47,7 @@ Rather than relying on this simple tool to do the checksum itself, you will like
 `emojisum` can just take those formats on stdin:
 
 ```bash
-$> sha1sum main.go | emojisum -parse-coreutils
+$> sha1sum main.go | emojisum -pg
 7656835947b4c6da272023c56b6f2529511bf88b  main.go
 :jp::gb::metal::goat::family::rocket::smiley_cat::swimmer::chocolate_bar::cactus::candy::smile::honeybee::house::cherries::cloud::fries::bow::wavy_dash::musical_score:  main.go
 🇯🇵 🇬🇧 🤘 🐐 👪 🚀 😺 🏊 🍫 🌵 🍬 😄 🐝 🏠 🍒 ☁️🍟 🙇 〰️ 🎼   main.go
@@ -59,7 +59,7 @@ Like so:
 
 
 ```bash
-$> openssl sha1 main.go |emojisum -parse-openssl
+$> openssl sha1 main.go |emojisum -pb
 SHA1(main.go)= 7656835947b4c6da272023c56b6f2529511bf88b
 SHA1(main.go)= :jp::gb::metal::goat::family::rocket::smiley_cat::swimmer::chocolate_bar::cactus::candy::smile::honeybee::house::cherries::cloud::fries::bow::wavy_dash::musical_score:
 SHA1(main.go)= 🇯🇵 🇬🇧 🤘 🐐 👪 🚀 😺 🏊 🍫 🌵 🍬 😄 🐝 🏠 🍒 ☁️🍟 🙇 〰️ 🎼 
