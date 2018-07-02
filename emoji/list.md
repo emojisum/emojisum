@@ -210,15 +210,15 @@ draft+2
   * `192` -- :shell: `:shell:` [U+1F41A](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f41a)
   * `193` -- :shoe: `:shoe:` [U+1F45E](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f45e) [U+1F45F](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f45f)
   * `194` -- :ski: `:ski:` [U+1F3BF](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f3bf)
-  * `195` -- :skull: `:skull:`
-  * `196` -- :sleepy: `:sleepy:`
-  * `197` -- :smile: `:smile:`
-  * `198` -- :smiley_cat: `:smiley_cat:`
-  * `199` -- :smirk: `:smirk:`
-  * `200` -- :smoking: `:smoking:`
-  * `201` -- :snail: `:snail:`
-  * `202` -- :snake: `:snake:`
-  * `203` -- :snowflake: `:snowflake:`
+  * `195` -- :skull: `:skull:` [U+1F480](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f480)
+  * `196` -- :sleepy: `:sleepy:` [U+1F62A](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f62a)
+  * `197` -- :smile: `:smile:` [U+1F604](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f604)
+  * `198` -- :smiley_cat: `:smiley_cat:` [U+1F63A](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f63a)
+  * `199` -- :smirk: `:smirk:` [U+1F60F](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f60f)
+  * `200` -- :smoking: `:smoking:` [U+1F6AC](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f6ac)
+  * `201` -- :snail: `:snail:` [U+1F40C](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f40c)
+  * `202` -- :snake: `:snake:` [U+1F40D](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f40d)
+  * `203` -- :snowflake: `:snowflake:` [U+FE0F](http://www.unicode.org/emoji/charts/full-emoji-list.html#fe0f) [U+2744](http://www.unicode.org/emoji/charts/full-emoji-list.html#2744)
   * `204` -- :soccer: `:soccer:`
   * `205` -- :soon: `:soon:`
   * `206` -- :space_invader: `:space_invader:`
