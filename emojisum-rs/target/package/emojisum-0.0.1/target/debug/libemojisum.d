@@ -1,0 +1,1 @@
+/Users/e/Documents/stichtingorganism/emojisum/emojisum-rs/target/package/emojisum-0.0.1/target/debug/libemojisum.rlib: /Users/e/Documents/stichtingorganism/emojisum/emojisum-rs/target/package/emojisum-0.0.1/src/lib.rs
