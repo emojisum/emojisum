@@ -28,7 +28,8 @@ type VersionedMap struct {
 }
 
 // Words are a set of options to represent an emoji.
-// Possible options could be the ":colon_notation:" or a "U+26CF" style codepoint.
+// Possible options could be the ":colon_notation:", a "U+26CF" style
+// codepoint, or the unicode value itself.
 type Words []string
 
 // IsColonNotation checks for whether a word is the :colon_notation: of emoji
@@ -36,7 +37,7 @@ func IsColonNotation(word string) bool {
 	return strings.HasPrefix(word, ":") && strings.HasSuffix(word, ":")
 }
 
-// IsCodepoint checks for whether a word is the "U+1234" codepoint style of emoji
+// IsCodepoint checks for whether a word is the "U+1234" codepoint style of emoji. Codepoints can sometimes be a combo, like flags
 func IsCodepoint(word string) bool {
 	return strings.HasPrefix(strings.ToUpper(word), "U+")
 }
