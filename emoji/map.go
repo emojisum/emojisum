@@ -52,7 +52,7 @@ func UnicodeLinkURL(word string) string {
 		return unicodeURL
 	}
 
-	return fmt.Sprintf("%s#%s", unicodeURL, strings.Join(strings.Split(strings.TrimPrefix(strings.ToUpper(word), "U+"), "U+"), "_"))
+	return fmt.Sprintf("%s#%s", unicodeURL, strings.Join(strings.Split(strings.TrimPrefix(strings.ToLower(word), "u+"), "u+"), "_"))
 }
 
 // CodepointToUnicode takes a "U+26CF" style word and returns the `\U00026CF` formated unicode string
