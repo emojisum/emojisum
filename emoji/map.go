@@ -2,6 +2,7 @@ package emoji
 
 import (
 	"fmt"
+	"strconv"
 	"strings"
 )
 
@@ -44,11 +45,30 @@ func IsCodepoint(word string) bool {
 
 var unicodeURL = `http://www.unicode.org/emoji/charts/full-emoji-list.html`
 
-// UnicodeLink returns a link to unicode.org list for CodePoint, or just the
+// UnicodeLinkURL returns a link to unicode.org list for CodePoint, or just the
 // full list if not a codepoint
-func UnicodeLink(word string) string {
+func UnicodeLinkURL(word string) string {
 	if !IsCodepoint(word) {
 		return unicodeURL
 	}
-	return fmt.Sprintf("%s#%s", unicodeURL, strings.SplitN(strings.ToLower(word), "+", 2)[1])
+
+	return fmt.Sprintf("%s#%s", unicodeURL, strings.Join(strings.Split(strings.TrimPrefix(strings.ToUpper(word), "U+"), "U+"), "_"))
+}
+
+// CodepointToUnicode takes a "U+26CF" style word and returns the `\U00026CF` formated unicode string
+func CodepointToUnicode(word string) string {
+	if !IsCodepoint(word) {
+		return word
+	}
+
+	var ret string
+
+	for _, chunk := range strings.Split(strings.TrimPrefix(strings.ToUpper(word), "U+"), "U+") {
+		c, err := strconv.ParseInt(chunk, 16, 64)
+		if err != nil {
+			return ret
+		}
+		ret = fmt.Sprintf("%s%c", ret, c)
+	}
+	return ret
 }
