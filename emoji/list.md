@@ -12,7 +12,7 @@ This ordered list of emojiwords is the conventional order for the practice of co
 
 ### Version
 
-draft+2
+draft+3
 
 ### List
   * `0` -- :+1: `:+1:` [U+1F44D](http://www.unicode.org/emoji/charts/full-emoji-list.html#1F44D)

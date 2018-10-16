@@ -6,7 +6,7 @@ package emoji
 func init() {
   mapGen = VersionedMap{
 	  Description: "This ordered list of emojiwords is the conventional order for the practice of conveying checksums with emoji. Each position provides the alternative for resolving the desired emoji.",
-	  Version: "draft+2",
+	  Version: "draft+3",
 	  EmojiWords: []Words{
       Words{ ":+1:","U+1F44D",
       },

@@ -85,7 +85,7 @@ import (
 
 func main() {
   for i := 0; i < 255; i++ {
-    fmt.Printf("%d :\n", i)
+    fmt.Printf("%d (%2.2x):\n", i, i)
     for _, word := range emoji.Map(byte(i)) {
       fmt.Printf("  - %s\n", emoji.CodepointToUnicode(word))
     }
