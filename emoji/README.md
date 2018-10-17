@@ -50,7 +50,7 @@ The purpose of this practice is provide simplified way to convey [checksums](htt
 
 ### Intended Audience
 
-This is intended for use by implementors of software to convey checksums or validate conveyed checksums.
+This is intended for use by implementors of software to convey checksums or validate conveyed checksums or unique fingerprints.
 
 
 ## Details
@@ -59,6 +59,17 @@ By operating on an 8bit byte, this provides the oportunity for 256 permutations.
 Most checksums convey in a hexadecimal notation, there showing a par of case-insensitive hexadecimal characters per byte (`16*16 = 256`).
 Having a mapping of 256 emojis this thereby reduces the number of characters (or emojis) needed to convey the checksum.
 In example, a [SHA1](https://en.wikipedia.org/wiki/SHA-1) checksum is 40 hexadecimal characters long, whereas an SHA1-emojisum is only 20 emojis.
+
+### The emojimap
+
+In the common document [`emojimap.json`](./emojimap.json) there is an ordered list of arrays.
+Each array contains a set of strings that are either a human readable word or the human readable unicode point.
+For example, byte `0xe8` (position 232) is `[":nauseated_face:", "U+1F922"]`.
+
+For more complex and visually similar emoji there are times that the unicode is a combination.
+This is the case for flags and people.
+For example, byte `0xd9` (position 217) includes `:surfer:`, `U+1F3C4`, and `U+1F3C4U+200DU+2642U+FEOF`.
+When there is a combination, implementations MUST split on the "`U+`".
 
 ## References
 

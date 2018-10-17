@@ -2,6 +2,7 @@ package emoji
 
 import (
 	"fmt"
+	"strconv"
 	"strings"
 )
 
@@ -28,7 +29,8 @@ type VersionedMap struct {
 }
 
 // Words are a set of options to represent an emoji.
-// Possible options could be the ":colon_notation:" or a "U+26CF" style codepoint.
+// Possible options could be the ":colon_notation:", a "U+26CF" style
+// codepoint, or the unicode value itself.
 type Words []string
 
 // IsColonNotation checks for whether a word is the :colon_notation: of emoji
@@ -36,18 +38,37 @@ func IsColonNotation(word string) bool {
 	return strings.HasPrefix(word, ":") && strings.HasSuffix(word, ":")
 }
 
-// IsCodepoint checks for whether a word is the "U+1234" codepoint style of emoji
+// IsCodepoint checks for whether a word is the "U+1234" codepoint style of emoji. Codepoints can sometimes be a combo, like flags
 func IsCodepoint(word string) bool {
 	return strings.HasPrefix(strings.ToUpper(word), "U+")
 }
 
 var unicodeURL = `http://www.unicode.org/emoji/charts/full-emoji-list.html`
 
-// UnicodeLink returns a link to unicode.org list for CodePoint, or just the
+// UnicodeLinkURL returns a link to unicode.org list for CodePoint, or just the
 // full list if not a codepoint
-func UnicodeLink(word string) string {
+func UnicodeLinkURL(word string) string {
 	if !IsCodepoint(word) {
 		return unicodeURL
 	}
-	return fmt.Sprintf("%s#%s", unicodeURL, strings.SplitN(strings.ToLower(word), "+", 2)[1])
+
+	return fmt.Sprintf("%s#%s", unicodeURL, strings.Join(strings.Split(strings.TrimPrefix(strings.ToLower(word), "u+"), "u+"), "_"))
+}
+
+// CodepointToUnicode takes a "U+26CF" style word and returns the `\U00026CF` formated unicode string
+func CodepointToUnicode(word string) string {
+	if !IsCodepoint(word) {
+		return word
+	}
+
+	var ret string
+
+	for _, chunk := range strings.Split(strings.TrimPrefix(strings.ToUpper(word), "U+"), "U+") {
+		c, err := strconv.ParseInt(chunk, 16, 64)
+		if err != nil {
+			return ret
+		}
+		ret = fmt.Sprintf("%s%c", ret, c)
+	}
+	return ret
 }

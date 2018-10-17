@@ -68,3 +68,27 @@ SHA1(main.go)= 🇯🇵 🇬🇧 🤘 🐐 👪 🚀 😺 🏊 🍫 🌵 🍬 �
 And like so:
 
 SHA1(main.go)= 🇯🇵 🇬🇧 🤘 🐐 👪 🚀 😺 🏊 🍫 🌵 🍬 😄 🐝 🏠 🍒 ☁️🍟 🙇 〰️ 🎼 
+
+
+## Library
+
+Use the golang library to access the mapped emoji words:
+
+```golang
+package main
+
+import (
+  "fmt"
+
+  "github.com/emojisum/emojisum/emoji"
+)
+
+func main() {
+  for i := 0; i < 255; i++ {
+    fmt.Printf("%d (%2.2x):\n", i, i)
+    for _, word := range emoji.Map(byte(i)) {
+      fmt.Printf("  - %s\n", emoji.CodepointToUnicode(word))
+    }
+  }
+}
+```

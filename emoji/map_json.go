@@ -51,7 +51,7 @@ func main() {
 }
 
 func codepointLinkMarkdown(word string) string {
-	return fmt.Sprintf(`[%s](%s)`, word, emoji.UnicodeLink(word))
+	return fmt.Sprintf(`[%s](%s)`, word, emoji.UnicodeLinkURL(word))
 }
 
 var (
