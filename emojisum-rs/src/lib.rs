@@ -15,6 +15,7 @@
 //! Emojisum 
 
 
+
 //External Crates
 extern crate blake2_rfc;
 extern crate serde;
@@ -56,13 +57,18 @@ impl Emojisum {
         return deserialized;
     }
 
-    //given a se
-    pub fn from_bytes(tosum: &[u8]) -> Option<String> {
+    //given a series of bytes match emojis
+    pub fn from_bytes(&self, tosum: &[u8]) -> Option<String> {
         //check that it is 32bytes
         if tosum.len() < 32 { return None }
 
         let mut result = String::new();
+        
+        for byte in tosum {
+            result.push_str(&(self.emojiwords[*byte as usize])[0])
+        }
 
+        return Some(result);
 
     }
 
@@ -74,6 +80,7 @@ impl Emojisum {
     }
 }
 
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -82,7 +89,10 @@ mod tests {
     fn it_works() {
 
         let e = Emojisum::init("./src/emojimap.json");
-        println!("{:?}", e);
+        //println!("{:?}", e);
+
+        println!("{:?}", e.hash_to_emojisum("dog".as_bytes().to_vec()));
+        println!("{:?}", e.hash_to_emojisum("cat".as_bytes().to_vec()));
 
         assert_eq!(2 + 2, 4);
     }
