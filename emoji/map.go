@@ -1,6 +1,7 @@
 package emoji
 
 import (
+	"encoding/hex"
 	"fmt"
 	"strconv"
 	"strings"
@@ -71,4 +72,25 @@ func CodepointToUnicode(word string) string {
 		ret = fmt.Sprintf("%s%c", ret, c)
 	}
 	return ret
+}
+
+// FromHexString parses string s as two character byte of hexadecimal into
+// Unicode Codepoint
+func FromHexString(s string) (string, error) {
+	d, err := hex.DecodeString(s)
+	if err != nil {
+		return "", err
+	}
+
+	var ret string
+	for _, b := range d {
+		for _, e := range Map(b) {
+			// use the first colon notation word and continue
+			if IsCodepoint(e) {
+				ret = ret + CodepointToUnicode(e)
+				break
+			}
+		}
+	}
+	return ret, nil
 }
