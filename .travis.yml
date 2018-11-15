@@ -1,24 +1,37 @@
 language: go
+
+go_import_path: github.com/emojisum/emojisum
+
 go:
-  - 1.x
-  - 1.11.x
-  - 1.10.x
-  - 1.9.x
-  - 1.8.x
-  - 1.7.x
+  - "1.x"
+  - "1.11.x"
+  - "1.10.x"
+  - "1.9.x"
+  - "1.8.x"
+  - "1.7.x"
+
+env:
+
+matrix:
 
 sudo: false
 
+install: true
+
+notifications:
+  email:
+    on_success: change
+    on_failure: always
+
 before_install:
   - git config --global url."https://".insteadOf git://
-  - go get -u -v golang.org/x/lint/golint
-  - mkdir -p $GOPATH/src/github.com/emojisum && ln -sf $(pwd) $GOPATH/src/github.com/emojisum/emojisum
   - go get -d ./...
+  - if [[ "$(go version |awk '{ print $3 }')" =~ ^go1\.11\. ]] ; then go get -u golang.org/x/lint/golint ; fi
 
 install: true
 
 script:
+  - if [[ "$(go version |awk '{ print $3 }')" =~ ^go1\.11\. ]] ; then golint -set_exit_status ./... ; fi
   - go vet ./...
-  - golint -set_exit_status ./...
   - go test -v ./...
   - go build .
