@@ -24,6 +24,8 @@ notifications:
     on_failure: always
 
 before_install:
+  - sudo apt-get update
+  - sudo apt-get install -y cargo
   - git config --global url."https://".insteadOf git://
   - go get -d ./...
   - if [[ "$(go version |awk '{ print $3 }')" =~ ^go1\.11\. ]] ; then go get -u golang.org/x/lint/golint ; fi
@@ -35,3 +37,4 @@ script:
   - go vet ./...
   - go test -v ./...
   - go build .
+  - if [[ "$(go version |awk '{ print $3 }')" =~ ^go1\.11\. ]] ; then cd ./contrib/emojisum-rs && cargo test ; fi
