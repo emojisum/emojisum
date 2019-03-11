@@ -1,4 +1,4 @@
-# emojisum
+# Emojisum
 [![Build Status](https://travis-ci.org/emojisum/emojisum.svg?branch=master)](https://travis-ci.org/emojisum/emojisum)
 
 :pray: :paperclip: Emoji that checksum! :tada: :poop:
@@ -91,4 +91,23 @@ func main() {
     }
   }
 }
+```
+
+## Contributed Implementations
+
+### Rust
+
+In `./contrib/emojisum-rs/` you'll find a rust library for emojisum.
+
+#### Build
+
+```shell
+cd ./contrib/emojisum-rs/
+cargo build
+```
+
+#### Test
+
+```shell
+cargo test
 ```
