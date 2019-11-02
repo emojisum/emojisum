@@ -21,9 +21,9 @@ into compilations, provided that the copyright notice and this notice are
 preserved, and that any substantive changes or deletions from the original are
 clearly marked.
 
-A pointer to the latest version of the canonical JSON is the URL: [http://emoji.thisco.de/draft/emojimap.json](http://emoji.thisco.de/draft/emojimap.json)
-A pointer to the latest version of this spec the URL: [http://emoji.thisco.de/draft/](http://emoji.thisco.de/draft/)
-Related documentation in can be found at the URL: [http://emoji.thisco.de/](http://emoji.thisco.de/)
+The latest version of the canonical JSON is the URL: https://raw.githubusercontent.com/emojisum/emojisum/master/emoji/emojimap.json
+The latest version of this spec the URL: https://github.com/emojisum/emojisum/blob/master/emoji/README.md
+Related documentation in can be found at the URL: [github.com/emojisum/emojisum](http://github.com/emojisum/emojisum/)
 
 ## Abstract
 

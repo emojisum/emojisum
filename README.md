@@ -14,8 +14,8 @@ Would you rather compare 60 hexadecimal characters or only 30 emoji?! :smiley_ca
 
 For information on the draft for broader practice, see [the draft](./emoji/README.md).
 Perma-URL:
-- Draft [http://emoji.thisco.de/draft/](http://emoji.thisco.de/draft/)
-- JSON doc [http://emoji.thisco.de/draft/emojimap.json](http://emoji.thisco.de/draft/emojimap.json)
+- [Draft](https://github.com/emojisum/emojisum/blob/master/emoji/README.md)
+- [JSON doc](https://raw.githubusercontent.com/emojisum/emojisum/master/emoji/emojimap.json)
 
 ## Tool
 
