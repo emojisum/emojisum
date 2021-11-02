@@ -8,6 +8,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"strings"
 	"text/template"
 
 	"github.com/emojisum/emojisum/emoji"
@@ -39,6 +40,7 @@ func main() {
 		"IsColonNotation":       emoji.IsColonNotation,
 		"IsCodepoint":           emoji.IsCodepoint,
 		"CodepointLinkMarkdown": codepointLinkMarkdown,
+		"Join":                  join,
 	}
 
 	mapGoTemp, err := template.New("").Funcs(funcMap).Parse(tmpl[*flTemplate])
@@ -54,6 +56,10 @@ func codepointLinkMarkdown(word string) string {
 	return fmt.Sprintf(`[%s](%s)`, word, emoji.UnicodeLinkURL(word))
 }
 
+func join(sep string, v []string) string {
+	return strings.Join(v, sep)
+}
+
 var (
 	flInput    = flag.String("in", "emojimap.json", "json input")
 	flOutput   = flag.String("out", "map_gen.go", "golang output")
@@ -61,21 +67,20 @@ var (
 )
 
 var tmpl = map[string]string{
-	"map_gen": `
-// THIS FILE IS GENERATED. DO NOT EDIT.
+	"map_gen": `// THIS FILE IS GENERATED. DO NOT EDIT.
 
 package emoji
 
 func init() {
-  mapGen = VersionedMap{
-	  Description: "{{.Description}}",
-	  Version: "{{.Version}}",
-	  EmojiWords: []Words{ {{- range .EmojiWords }}
-      Words{ {{ range . -}}
-        "{{- . }}",{{- end }}
-      },{{- end }}
-	  },
-  }
+	mapGen = VersionedMap{
+		Description: "{{.Description}}",
+		Version:     "{{.Version}}",
+		EmojiWords: []Words{
+		{{- range .EmojiWords }}
+			{"{{- Join "\", \"" . }}"},
+		{{- end }}
+		},
+	}
 }
 `,
 	"markdown_gen": `
