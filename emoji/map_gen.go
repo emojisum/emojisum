@@ -9,7 +9,7 @@ func init() {
 		EmojiWords: []Words{
 			{":+1:", "U+1F44D"},
 			{":8ball:", "U+1F3B1"},
-			{":airplane:", "U+2708"},
+			{":airplane:", "U+2708U+FE0F", "U+2708"},
 			{":alien:", "U+1F47D"},
 			{":anchor:", "U+2693"},
 			{":angel:", "U+1F607"},

@@ -17,7 +17,7 @@ draft+3
 ### List
   * `0` -- :+1: `:+1:` [U+1F44D](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f44d)
   * `1` -- :8ball: `:8ball:` [U+1F3B1](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f3b1)
-  * `2` -- :airplane: `:airplane:` [U+2708](http://www.unicode.org/emoji/charts/full-emoji-list.html#2708)
+  * `2` -- :airplane: `:airplane:` [U+2708U+FE0F](http://www.unicode.org/emoji/charts/full-emoji-list.html#2708_fe0f) [U+2708](http://www.unicode.org/emoji/charts/full-emoji-list.html#2708)
   * `3` -- :alien: `:alien:` [U+1F47D](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f47d)
   * `4` -- :anchor: `:anchor:` [U+2693](http://www.unicode.org/emoji/charts/full-emoji-list.html#2693)
   * `5` -- :angel: `:angel:` [U+1F607](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f607)
