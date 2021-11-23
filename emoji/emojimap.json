@@ -4,7 +4,7 @@
   "emojiwords": [
     [":+1:", "U+1F44D"],
     [":8ball:", "U+1F3B1"],
-    [":airplane:", "U+2708"],
+    [":airplane:", "U+2708U+FE0F", "U+2708"],
     [":alien:", "U+1F47D"],
     [":anchor:", "U+2693"],
     [":angel:", "U+1F607"],
@@ -205,7 +205,7 @@
     [":smoking:", "U+1F6AC"],
     [":snail:", "U+1F40C"],
     [":snake:", "U+1F40D"],
-    [":snowflake:", "U+FE0F", "U+2744"],
+    [":snowflake:", "U+2744U+FE0F", "U+2744"],
     [":soccer:", "U+26BD"],
     [":soon:", "U+1F51C"],
     [":space_invader:", "U+1F47E"],
