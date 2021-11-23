@@ -218,7 +218,7 @@ draft+3
   * `200` -- :smoking: `:smoking:` [U+1F6AC](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f6ac)
   * `201` -- :snail: `:snail:` [U+1F40C](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f40c)
   * `202` -- :snake: `:snake:` [U+1F40D](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f40d)
-  * `203` -- :snowflake: `:snowflake:` [U+FE0F](http://www.unicode.org/emoji/charts/full-emoji-list.html#fe0f) [U+2744](http://www.unicode.org/emoji/charts/full-emoji-list.html#2744)
+  * `203` -- :snowflake: `:snowflake:` [U+2744U+FE0F](http://www.unicode.org/emoji/charts/full-emoji-list.html#2744_fe0f) [U+2744](http://www.unicode.org/emoji/charts/full-emoji-list.html#2744)
   * `204` -- :soccer: `:soccer:` [U+26BD](http://www.unicode.org/emoji/charts/full-emoji-list.html#26bd)
   * `205` -- :soon: `:soon:` [U+1F51C](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f51c)
   * `206` -- :space_invader: `:space_invader:` [U+1F47E](http://www.unicode.org/emoji/charts/full-emoji-list.html#1f47e)

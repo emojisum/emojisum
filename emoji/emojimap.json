@@ -205,7 +205,7 @@
     [":smoking:", "U+1F6AC"],
     [":snail:", "U+1F40C"],
     [":snake:", "U+1F40D"],
-    [":snowflake:", "U+FE0F", "U+2744"],
+    [":snowflake:", "U+2744U+FE0F", "U+2744"],
     [":soccer:", "U+26BD"],
     [":soon:", "U+1F51C"],
     [":space_invader:", "U+1F47E"],
