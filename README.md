@@ -1,7 +1,6 @@
 # Emojisum
-[![Build Status](https://travis-ci.org/emojisum/emojisum.svg?branch=master)](https://travis-ci.org/emojisum/emojisum)
 
-:pray: :paperclip: An easier way to compare hashes /fingerprints, when dealing human weak link :link: :tada:
+:pray: :paperclip: An easier way to compare hashes /fingerprints, when dealing with the human weak link :link: :tada:
 
 A curated list of 256 emojis that are not entirely similar.
 Using http://www.webpagefx.com/tools/emoji-cheat-sheet/ and http://www.unicode.org/emoji/charts/full-emoji-list.html to compare them.
